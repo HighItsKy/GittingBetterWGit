@@ -6,3 +6,5 @@ How to verify status:
     `git status`
 How to commit changes:
     `git commit -m "insert something cool here"`
+How to see changes prior to commit:
+    `git diff`
