@@ -1,2 +1,8 @@
 How to make a git repo:
     `git init`
+How to add untracked files:
+    `git add .`
+How to verify status:
+    `git status`
+How to commit changes:
+    `git commit -m "insert something cool here"`
