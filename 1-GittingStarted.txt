@@ -14,4 +14,7 @@ How to add tracked files that have been altered:
     `git add -u`
 How to get out of VIM (if you did just git commit):
     `:quit`
-    
+How to go back 1 commit (Forces the reset):
+    `git reset --soft HEAD~1`
+How to go back to before a file is commited (Does not force the reset AKA SAFER):
+    `git reset`
