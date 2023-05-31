@@ -8,3 +8,5 @@ How to unstage an added file:
     `git restore --staged <file>`
     OR
     `git reset {<filename>}`
+How to do a partial commit:
+    
