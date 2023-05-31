@@ -15,3 +15,7 @@ How to go back x ammount of commits:
     `git reset` <-Will unstage changes made (so you can edit and restage)
 How to go back x ammount of commits AND remove changes (BAD BAD DANGER DANGER):
     `git reset --hard HEAD~x`
+How to make the log look more readable:
+    `git log --oneline --decorate --graph --all`
+How to alias the log:
+    `git config --global alias.pl 'log --oneline --decorate --graph --all'`
