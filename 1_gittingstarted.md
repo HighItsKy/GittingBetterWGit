@@ -14,3 +14,6 @@ How to add tracked files that have been altered:
     `git add -u`
 How to get out of VIM (if you did just git commit):
     `:quit`
+How to quit VIM NOW!!!!!!!
+    `:q!`
+Reset is really advanced (look at this later, kind kind person)
