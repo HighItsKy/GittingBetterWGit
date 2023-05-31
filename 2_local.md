@@ -9,4 +9,4 @@ How to unstage an added file:
     OR
     `git reset {<filename>}`
 How to do a partial commit:
-    
+    `git add -p`
