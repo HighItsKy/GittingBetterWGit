@@ -10,3 +10,8 @@ How to unstage an added file:
     `git reset {<filename>}`
 How to do a partial commit:
     `git add -p`
+How to go back x ammount of commits:
+    `git reset --soft HEAD~x`
+    `git reset` <-Will unstage changes made (so you can edit and restage)
+How to go back x ammount of commits AND remove changes (BAD BAD DANGER DANGER):
+    `git reset --hard HEAD~x`
