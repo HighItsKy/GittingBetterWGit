@@ -4,7 +4,7 @@
 - Intro to git graphs
 - aliases
 
-How to unstage an added file:
+How to unstage a staged file:
     `git restore --staged <file>`
     OR
     `git reset {<filename>}`
