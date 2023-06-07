@@ -41,8 +41,15 @@ How to discard untracked junk:
 
     `git clean -fxfd`
 
-How to overwrite last commit (such as editing a commit message, or adding more changes to the same commit):
+How to overwrite last commit (such as editing a commit message, or ammending a commit):
 
     `git add <file>` <-If wanting to add edits of file to the head commit, it needs to be added first>
     
     `git commit --amend` 
+
+
+How to get out of VIM without ammending the head commit:
+
+    -Delete all of the commit's messages used "Del" key then :wq
+
+    
