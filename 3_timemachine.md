@@ -52,4 +52,4 @@ How to get out of VIM without ammending the head commit:
 
     -Delete all of the commit's messages used "Del" key then :wq
 
-    
+https://youtu.be/hv8dhOEzQcM
