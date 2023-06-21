@@ -83,3 +83,5 @@ How to Resolve Conflict - Option 2 - Diana accepts the Kamila commit
 How to Clone a Repository:
 
     `git clone [github url]`
+
+How to Cause a Conflict:
