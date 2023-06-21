@@ -1,4 +1,4 @@
-- Summary
+Summary
 - Review aliases: st, pl, co
 - Hopping around commits
 - Undo uncommitted mistake (staged)
