@@ -103,3 +103,8 @@ How to Accept a Conflict:
     THEN pull from GitHub:
 
     `git pull`
+
+How to quickly update repo:
+    `git stash -u` <-- Stores untracked/tracked unadded, uncommitted, unpushed files>
+    `git pull` <-- Grabs all changes from GitHub>
+    `git stash pop` <-- Unstashes files>
