@@ -84,4 +84,22 @@ How to Clone a Repository:
 
     `git clone [github url]`
 
-How to Cause a Conflict:
+How to Cause Conflicts:
+    - Make a commit
+    - Pulled commit to both devices
+    - One device overwrote a commit `git commit --amend`
+    - Forced a push `git push --f`
+
+How to Accept a Conflict:
+    
+    Go back in time to when there was no conflict
+
+    `git reset --hard HEAD~x` 
+
+    OR
+
+    `git reset --soft HEAD~x` <-Goes back x commits>
+
+    THEN pull from GitHub:
+
+    `git pull`
